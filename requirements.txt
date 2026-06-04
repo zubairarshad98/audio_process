@@ -1,0 +1,7 @@
+streamlit
+numpy
+soundfile
+noisereduce
+librosa
+streamlit-mic-recorder
+SpeechRecognition
