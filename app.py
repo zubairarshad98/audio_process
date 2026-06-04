@@ -14,29 +14,27 @@ st.set_page_config(
     layout="centered"
 )
 
-# Premium Matte Charcoal Grey Theme Styling with Strict Mobile Overrides
+# Premium Matte Charcoal Grey Theme Styling
 st.markdown("""
     <style>
-    /* Force background on both computers and mobile screens */
-    .main, [data-testid="stApp"], [data-testid="stAppViewContainer"] { 
+    /* Main Background Changed to Matte Charcoal Grey */
+    .main { 
         background-color: #1E1E24 !important; 
     }
     
     /* Hardware Component Card Containers */
-    div[data-testid="stBlock"], [data-testid="stVerticalBlock"] > div {
+    div[data-testid="stBlock"] {
         background-color: #161616 !important;
         padding: 24px !important;
         border-radius: 12px !important;
-        border: 1px solid #282828 !important;
+        border: 1px solid #282828;
         margin-bottom: 15px;
     }
     
     /* Global Typography Core Overrides */
-    h1, h2, h3, h4, p, span, label, div { 
-        font-family: 'Inter', -apple-system, sans-serif !important;
-    }
-    h1, h2, h3, h4 {
+    h1, h2, h3, h4 { 
         color: #FFFFFF !important; 
+        font-family: 'Inter', -apple-system, sans-serif !important;
         font-weight: 600 !important;
     }
     
